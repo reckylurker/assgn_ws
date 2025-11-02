@@ -110,7 +110,7 @@ The DWA algorithm follows these steps:
 Cost = w_{goal} C_{goal} + w_{obs} C_{obs} + w_{LV} C_{LV} + w_{AV} C_{AV}
 ```
 
-where $`C_{goal}`$ represents the goal cost, $`C_{obs}`$ represents obstacle cost, $`C_{LV}`$ represents linear velocity cost, and $`C_{AV}`$ represents angular velocity cost. 
+where $`C_{goal}`$ represents the goal cost, $`C_{obs}`$ represents obstacle cost, $`C_{LV}`$ represents linear velocity cost, and $`C_{AV}`$ represents angular velocity cost. Here, path smoothness is represented through a velocity-based cost term that penalizes high speeds, as the current task is limited to speed regulation for mobile navigation.
 
 ### Configurable Parameters
 
