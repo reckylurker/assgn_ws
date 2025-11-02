@@ -61,7 +61,7 @@ source install/setup.bash
 
 > [!NOTE] 
 > Ensure that the `custom_dwa` package is sourced in all terminals.
-```
+```sh
 source assgn_ws/install/setup.bash
 ```
 
@@ -107,17 +107,19 @@ The DWA algorithm follows these steps:
 
 ### Cost Function
 
-$$Cost = w_{goal} C_{goal} + w_{obs} C_{obs} + w_{LV} C_{LV} + w_{AV} C_{AV}$$
+```math
+Cost = w_{goal} C_{goal} + w_{obs} C_{obs} + w_{LV} C_{LV} + w_{AV} C_{AV}
+```
 
-where $C_{goal}$ represents the goal cost and so on. 
+where `C_{goal}` represents the goal cost and so on. 
 
 ### Configurable Parameters
 
-The configurable parameters can be found in `assgn_ws/src/custom_dwa/custom_dwa/DWAConfig.py`.
+The configurable parameters can be found in [assgn_ws/src/custom_dwa/custom_dwa/DWAConfig.py](https://github.com/reckylurker/assgn_ws/blob/main/src/custom_dwa/custom_dwa/DWAConfig.py).
 
 ## Issues with this implementation
 
-The algorithm, with the current set of parameters, is very rarely able to recover post collision with an obstacle. The robot shows an oscillating behaviour near the obstacle. 
+With the current parameter settings, the algorithm rarely manages to recover after colliding with an obstacle. The robot tends to exhibit oscillatory behavior near obstacles, likely due to suboptimal parameter tuning. Given the time constraints of this assignment, extensive tuning was not performed. Currently, The robot should operate correctly for any goal as long as it avoids collisions.
 
 ## File Structure
 
