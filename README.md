@@ -83,7 +83,7 @@ Watch the robot navigate.
 
 ## Debug
 
-In the terminal running `custom_dwa` planner, the DWA Planning commands containg the `cost` and the `bestCmd` chosen. The command is printed as: `(linear velocity, angular velocity)`.
+The `custom_dwa` planner prints the DWA planning costs and the selected `bestCmd` to the terminal directly instead of publishing to `/rosout`. Commands are shown in the format (linear velocity, angular velocity).
 
 To check published velocity commands:
 ```sh
