@@ -52,7 +52,6 @@ source ~/turtlebot3_ws/install/setup.bash
 
 ```sh
 git clone https://github.com/reckylurker/assgn_ws.git && cd assgn_ws
-mkdir build install log
 colcon build --packages-select custom_dwa
 source install/setup.bash
 ```
@@ -99,7 +98,7 @@ The DWA algorithm follows these steps:
 
 1. <b>Dynamic Window Generation</b>: Sample velocity commands (linear and angular) within the robot's dynamic constaints.
 2. <b>Trajectory Prediction</b>: For each velocity sample, numerically predict the robot's trajectory over a time horizon. The unicycle dynamics model is used for this prediction.
-3. <b>Cost Evaluation<b>: Evaluate each trajectory using a multi-objective cost function:
+3. <b>Cost Evaluation</b>: Evaluate each trajectory using a multi-objective cost function:
 - <b>Goal Distance</b>: Distance from trajectory endpoint to goal.
 - <b>Obstacle Avoidance</b>: Minimum distance to obstacles along trajectory
 - <b>Path Smoothness</b>: Velocity and Angular Velocity Magnitudes
@@ -111,7 +110,7 @@ The DWA algorithm follows these steps:
 Cost = w_{goal} C_{goal} + w_{obs} C_{obs} + w_{LV} C_{LV} + w_{AV} C_{AV}
 ```
 
-where `C_{goal}` represents the goal cost and so on. 
+where $`C_{goal}`$ represents the goal cost, $`C_{obs}`$ represents obstacle cost, $`C_{LV}`$ represents linear velocity cost, and $`C_{AV}`$ represents angular velocity cost. 
 
 ### Configurable Parameters
 
