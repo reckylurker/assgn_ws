@@ -2,7 +2,7 @@
 
 This repository contains the code for simulating dynamic window approach (DWA) for Turtlebot3 Waffle in Gazebo. The algorithm logic is based on the amazing robotics library [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) and the paper on [The Dynamic Window Approach to Collision Avoidance](https://www.ri.cmu.edu/pub_files/pub1/fox_dieter_1997_1/fox_dieter_1997_1.pdf).
 
-<i>The simulations were performed on WSL2 with Ubuntu-22.04.5 LTS (Jammy), ROS2 Humble, and Gazebo Harmonic</i>
+<i>The simulations were performed on WSL2 with Ubuntu-22.04.5 LTS (Jammy), ROS2 Humble, and Gazebo Harmonic.</i>
 
 ## Environment Setup
 
@@ -59,7 +59,8 @@ source install/setup.bash
 
 ## Running the simulation
 
-> [!NOTE] Ensure that the `custom_dwa` package is sourced in all terminals.
+> [!NOTE] 
+> Ensure that the `custom_dwa` package is sourced in all terminals.
 ```
 source assgn_ws/install/setup.bash
 ```
@@ -106,9 +107,7 @@ The DWA algorithm follows these steps:
 
 ### Cost Function
 
-$$
-Cost = w_{goal} C_{goal} + w_{obs} C_{obs} + w_{LV} C_{LV} + w_{AV} C_{AV}
-$$
+$$Cost = w_{goal} C_{goal} + w_{obs} C_{obs} + w_{LV} C_{LV} + w_{AV} C_{AV}$$
 
 where $C_{goal}$ represents the goal cost and so on. 
 
