@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/custom_dwa/custom_dwa.egg-info
+writing ../../build/custom_dwa/custom_dwa.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_dwa/custom_dwa.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_dwa/custom_dwa.egg-info/entry_points.txt
+writing requirements to ../../build/custom_dwa/custom_dwa.egg-info/requires.txt
+writing top-level names to ../../build/custom_dwa/custom_dwa.egg-info/top_level.txt
+writing manifest file '../../build/custom_dwa/custom_dwa.egg-info/SOURCES.txt'
+reading manifest file '../../build/custom_dwa/custom_dwa.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_dwa/custom_dwa.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/recklurker/assgn_turtlebot/build/custom_dwa/build
+creating /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib
+creating /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+copying custom_dwa/__init__.py -> /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+copying custom_dwa/DWANode.py -> /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+copying custom_dwa/DWALogging.py -> /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+copying custom_dwa/DWAPlanner.py -> /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+copying custom_dwa/dwa.py -> /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+copying custom_dwa/DWAConfig.py -> /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa
+running install
+running install_lib
+creating /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+copying /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa/__init__.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+copying /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa/DWANode.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+copying /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa/DWALogging.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+copying /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa/DWAPlanner.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+copying /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa/dwa.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+copying /home/recklurker/assgn_turtlebot/build/custom_dwa/build/lib/custom_dwa/DWAConfig.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa
+byte-compiling /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa/DWANode.py to DWANode.cpython-310.pyc
+byte-compiling /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa/DWALogging.py to DWALogging.cpython-310.pyc
+byte-compiling /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa/DWAPlanner.py to DWAPlanner.cpython-310.pyc
+byte-compiling /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa/dwa.py to dwa.cpython-310.pyc
+byte-compiling /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa/DWAConfig.py to DWAConfig.cpython-310.pyc
+running install_data
+creating /home/recklurker/assgn_turtlebot/install/custom_dwa/share/ament_index
+creating /home/recklurker/assgn_turtlebot/install/custom_dwa/share/ament_index/resource_index
+creating /home/recklurker/assgn_turtlebot/install/custom_dwa/share/ament_index/resource_index/packages
+copying resource/custom_dwa -> /home/recklurker/assgn_turtlebot/install/custom_dwa/share/ament_index/resource_index/packages
+copying package.xml -> /home/recklurker/assgn_turtlebot/install/custom_dwa/share/custom_dwa
+creating /home/recklurker/assgn_turtlebot/install/custom_dwa/share/custom_dwa/launch
+copying launch/custom_dwa.launch.py -> /home/recklurker/assgn_turtlebot/install/custom_dwa/share/custom_dwa/launch
+running install_egg_info
+Copying ../../build/custom_dwa/custom_dwa.egg-info to /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/python3.10/site-packages/custom_dwa-0.0.0-py3.10.egg-info
+running install_scripts
+Installing launch_dwa script to /home/recklurker/assgn_turtlebot/install/custom_dwa/lib/custom_dwa
+writing list of installed files to '/home/recklurker/assgn_turtlebot/build/custom_dwa/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+launch_dwa = custom_dwa.dwa:main
+
