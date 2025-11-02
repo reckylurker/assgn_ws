@@ -1,2 +1,7 @@
 # VIM SWAP Files
 *.swp 
+
+# BUILD Files
+build/
+install/
+log/
